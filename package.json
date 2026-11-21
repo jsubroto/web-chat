@@ -1,15 +1,10 @@
 {
-  "name": "iochat",
+  "name": "web-chat",
   "version": "1.0.0",
-  "description": "Simple chat app using Socket.io",
-  "main": "server.js",
+  "private": true,
+  "description": "Real-time chat app built with Bun and native WebSockets",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bun server.mts"
   },
-  "author": "Jaimes Subroto",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.22.1",
-    "socket.io": "^4.8.3"
-  }
+  "author": "Jaimes Subroto"
 }
